@@ -1,0 +1,111 @@
+/* css/custom-botafogo.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px; /* Ajuste para navbar fixa no topo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4; /* Um cinza bem claro para o fundo geral */
+}
+
+main {
+    flex: 1;
+}
+
+.anton-font {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Navbar Customizada Botafogo */
+.navbar-custom-botafogo {
+    background-color: #000000; /* Preto Botafogo */
+    border-bottom: 3px solid #FFFFFF; /* Detalhe branco */
+}
+
+.navbar-custom-botafogo .navbar-brand,
+.navbar-custom-botafogo .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-custom-botafogo .nav-link:hover,
+.navbar-custom-botafogo .nav-link.active {
+    color: #A9A9A9; /* Cinza claro para hover/active */
+}
+
+/* Hero Section Botafogo */
+.hero-section-botafogo {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/estadio-nilton-santos.jpg') no-repeat center center;
+    /* Imagem 1 (Hero) */
+    background-size: cover;
+    height: 75vh;
+    min-height: 450px;
+    color: #fff;
+}
+
+.hero-section-botafogo .display-3 {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+.hero-section-botafogo .btn-light {
+    font-weight: bold;
+}
+
+/* Cards de Conquistas */
+.card-botafogo {
+    background-color: #222222; /* Cinza escuro para os cards */
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+.card-botafogo .card-title {
+    color: #ffffff;
+}
+
+.card-botafogo .card-text {
+    color: #dddddd;
+    font-size: 0.9rem;
+}
+
+.card-img-top-icon {
+    width: 100px; /* Tamanho dos ícones/troféus nos cards */
+    height: 100px;
+    object-fit: contain;
+}
+
+/* Seções de Títulos na página titulos.html */
+.title-section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2rem !important;
+    margin-bottom: 2rem;
+}
+.title-section:last-child {
+    border-bottom: none;
+}
+.title-icon {
+    max-height: 60px;
+    vertical-align: middle;
+}
+
+
+/* Inputs do Formulário de Contato */
+.input-botafogo {
+    border-left: 5px solid #000000;
+}
+.input-botafogo:focus {
+    border-color: #000000;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+/* Footer Botafogo */
+.footer-custom-botafogo {
+    background-color: #000000; /* Preto Botafogo */
+    border-top: 3px solid #FFFFFF; /* Detalhe branco */
+}
+
+.footer-custom-botafogo p {
+    margin-bottom: 0.5rem;
+}
